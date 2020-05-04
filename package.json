@@ -1,0 +1,21 @@
+{
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "deployd": "^1.2.0",
+    "dpd-clientlib": "*",
+    "dpd-dashboard": "*",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "dpdInclude": [
+    "hello",
+    "proxy",
+    "dpd-clientlib",
+    "dpd-dashboard"
+  ]
+}
